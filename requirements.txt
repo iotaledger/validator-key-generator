@@ -1,0 +1,5 @@
+pymultihash==0.8.2
+base58==1.0.3
+pyjwt==1.7.1
+cryptography==3.2.1
+libp2p==0.1.4
