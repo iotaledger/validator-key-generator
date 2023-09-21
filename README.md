@@ -5,6 +5,9 @@ Tool to create all needed Validator key files:
 Here's how to use it:
 
 ```
+# install all packages
+$ sudo apt update && sudo apt install python3 python3-pip python3-virtualenv
+
 # clone repository
 $ git clone https://github.com/iotaledger/validator-key-generator
 
