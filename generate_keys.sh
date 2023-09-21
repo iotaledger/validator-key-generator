@@ -23,7 +23,7 @@ test -x "$(which python3)" || error "Python 3 is not installed. Install it with:
 test -x "$(which pip3)" || error "pip3 is not installed. Install it with:\n\tsudo apt install python3-pip"
 
 # Check if virtualenv is installed
-test -x "$(which virtualenv)" || error "virtualenv is not installed. Install it with:\n\tsudo apt install python3-virtuelenv"
+test -x "$(which virtualenv)" || error "virtualenv is not installed. Install it with:\n\tsudo apt install python3-virtualenv"
 
 # Create virtual environment
 python3 -m virtualenv -p /usr/bin/python3.10 venv || error "Failed to create virtual environment"
